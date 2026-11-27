@@ -138,6 +138,7 @@ Your code is marked automatically: **40 test cases × 1 mark = 40 marks**. There
 | `remove(String)` | 7 | 1. a key that is alone in its bucket · 2. the first node of a chain · 3. a middle node of a chain · 4. the last node of a chain · 5. missing keys return null and change nothing · 6. removing every key, one at a time, until the table is empty · 7. removing the same key twice, and an equal, but different, String object |
 | `loadFactor()` | 3 | 1. an empty table, and tables with one key · 2. a few keys (the answer is not a whole number) · 3. more keys than buckets (a load factor above 1) |
 | `resize()` | 5 | 1. an empty table: the number of buckets doubles · 2. keys alone in their buckets move to their buckets in the new table · 3. a chain whose keys go to different buckets in the new table · 4. resizing twice in a row · 5. larger tables (7 keys in 8 buckets, and 24 keys in 32 buckets) |
+| **Total** | 40| | 
 
 ## Submission
 Zip the project directory and submit the ZIP file to Canvas.
